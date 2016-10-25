@@ -5,14 +5,7 @@ require "minitest/reporters"
 Minitest::Reporters.use!
 
 class ActiveSupport::TestCase
-<<<<<<< HEAD
-  
-  fixtures :all
-
-  
-=======
 
   fixtures :all
 
->>>>>>> filling-in-layout
 end
