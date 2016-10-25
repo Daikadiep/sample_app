@@ -1,10 +1,13 @@
+<div class="center jumbotron">
+  <h1><%= t ".Welcome" %></h1>
 
+  <h2>
+    <%= t ".the" %>
+    <a href="http://www.railstutorial.org/"><%= t ".Ruby" %></a>
+    <%= t ".sam" %>
+  </h2>
 
-	
-		<h1>Simple App</h1>
-		<p>
-			This is he home paga for the
-			<a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-			sample application.
-		</p>
-	
+  <%= link_to t(".Sign"), signup_path, class: "btn btn-lg btn-primary" %>
+
+</div>
+<%= link_to image_tag( "rails.png", alt: t(".logo")), "http://rubyonrails.org/" %>
