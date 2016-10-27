@@ -76,3 +76,12 @@ en:
     new:
       sign: "Sign up"
       this: "This will be a signup page for new users."
+      Con: "Confirmation"
+      Create: "Create my account"
+    create:
+      Welcome: "Welcome to the Sample App!"
+
+  shared:
+    error_messages:
+      the: "The form contains"
+      error: "error"
