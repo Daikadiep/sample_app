@@ -96,5 +96,6 @@ en:
       login: "Log in"
       new: "New user?"
       sign: "Sign up now!"
+      Remember: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
