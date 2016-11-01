@@ -37,6 +37,11 @@ en:
       Home: "Home"
       Help: "Help"
       Log: "Log in"
+      logout: "Log out"
+      Profile: "Profile"
+      Settings: "Settings"
+      account: "Account"
+      Users: "Users"
 
   static_pages:
     home:
@@ -85,3 +90,11 @@ en:
     error_messages:
       the: "The form contains"
       error: "error"
+
+  sessions:
+    new:
+      login: "Log in"
+      new: "New user?"
+      sign: "Sign up now!"
+    create:
+      invalid: "Invalid email/password combination"
