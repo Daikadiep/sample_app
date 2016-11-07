@@ -43,6 +43,7 @@ en:
       account: "Account"
       Users: "Users"
 
+
   static_pages:
     home:
       Welcome: "Welcome to the Sample App"
@@ -85,7 +86,24 @@ en:
       Create: "Create my account"
     create:
       Welcome: "Welcome to the Sample App!"
+    index:
+      All: "All users"
+    user:
+      delete: "delete"
+      you: "You sure?"
+    update:
+      Profile: "Profile updated"
+    destroy:
+      User: "User deleted"
+    logger_in_user:
 
+    edit:
+      Edit user: "Edit user"
+      Confirmation: "Confirmation"
+      Save changes: "Save changes"
+      change: "change"
+      Update your profile: "Update your profile"
+      Please: "Please log in."
   shared:
     error_messages:
       the: "The form contains"
