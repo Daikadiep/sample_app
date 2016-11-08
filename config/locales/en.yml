@@ -86,6 +86,8 @@ en:
       Create: "Create my account"
     create:
       Welcome: "Welcome to the Sample App!"
+      Please: "Please check your email to activate your account."
+
     index:
       All: "All users"
     user:
@@ -117,3 +119,17 @@ en:
       Remember: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
+      Check: "Check your email for the activation link"
+      Account: "Account not activated."
+  account_activations:
+    edit:
+      Account: "Account activated!"
+      Invalid: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      Sample App: "Sample App"
+      Welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      Hi: "Hi"
+      Activate: "Activate"
+    Account activation: "Account activation"
+    Hi: "Hi"
