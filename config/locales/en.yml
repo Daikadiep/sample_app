@@ -52,6 +52,7 @@ en:
       sam: "sample application."
       logo: "Rails logo"
       Sign: "Sign up now!"
+      Micropost Feed: "Micropost Feed"
 
 
     contact:
@@ -87,6 +88,8 @@ en:
     create:
       Welcome: "Welcome to the Sample App!"
       Please: "Please check your email to activate your account."
+    show:
+      Microposts: "Microposts"
 
     index:
       All: "All users"
@@ -98,6 +101,7 @@ en:
     destroy:
       User: "User deleted"
     logger_in_user:
+      Please log in.: "Please log in."
 
     edit:
       Edit user: "Edit user"
@@ -110,6 +114,13 @@ en:
     error_messages:
       the: "The form contains"
       error: "error"
+    micropost_form:
+      Compose: "Compose new micropost..."
+      image: "image/jpeg,image/gif,image/png"
+      Post: "Post"
+    user_info:
+      view my profile: "view my profile"
+      micropost: "micropost"
 
   sessions:
     new:
@@ -159,3 +170,13 @@ en:
     new:
       Forgot password: "Forgot password"
       Submit: "Submit"
+  microposts:
+    create:
+      Micropost: "Micropost created!"
+    destroy:
+      Micropost deleted: "Micropost deleted"
+    micropost:
+      You sure?: "You sure?"
+      delete: "delete"
+      Posted: "Posted"
+      ago: "ago."

@@ -12,6 +12,7 @@ class UsersController < ApplicationController
     if @user.nil?
       render file: "public/404.html", layout: false
     end
+    @microposts = @user.microposts.paginate page: params[:page]
   end
 
   def new
