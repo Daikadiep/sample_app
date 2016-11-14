@@ -24,52 +24,52 @@ en:
 
   layouts:
     footer:
-      Ruby: "Ruby on Rails Tutorial"
-      News: "News"
-      About: "About"
-      Contact: "Contact"
+      ruby: "Ruby on Rails Tutorial"
+      news: "News"
+      about: "About"
+      contact: "Contact"
       by: "by"
       the: "The"
     application:
-      Ruby: "Ruby on Rails Tutorial"
+      ruby: "Ruby on Rails Tutorial"
     header:
       sample: "sample app"
-      Home: "Home"
-      Help: "Help"
-      Log: "Log in"
+      home: "Home"
+      help: "Help"
+      log: "Log in"
       logout: "Log out"
-      Profile: "Profile"
-      Settings: "Settings"
+      profile: "Profile"
+      settings: "Settings"
       account: "Account"
-      Users: "Users"
+      users: "Users"
 
 
   static_pages:
     home:
-      Welcome: "Welcome to the Sample App"
-      Ruby: "Ruby on Rails Tutorial"
+      welcome: "Welcome to the Sample App"
+      ruby: "Ruby on Rails Tutorial"
       the: "This is the home page for the"
       sam: "sample application."
       logo: "Rails logo"
-      Sign: "Sign up now!"
-      Micropost Feed: "Micropost Feed"
+      sign: "Sign up now!"
+      micropost feed: "Micropost Feed"
 
 
     contact:
-      Contact: "Contact"
-      Contact_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact: "Contact"
+      contact_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the"
       page: "Contact page"
 
     help:
-      Rails: "Rails Tutorial help page."
-      Ruby: "Ruby on Rails Tutorial book"
-      To: "To get help on this sample app, see the"
-      Get: "Get help on the Ruby on Rails Tutorial at the"
-      Help: "Help"
+      rails: "Rails Tutorial help page."
+      ruby: "Ruby on Rails Tutorial book"
+      to: "To get help on this sample app, see the"
+      get: "Get help on the Ruby on Rails Tutorial at the"
+      help: "Help"
 
     about:
-      About: "About"
-      Ruby: "Ruby on Rails  Tutorial"
+      about: "About"
+      ruby: "Ruby on Rails  Tutorial"
       book: "book"
       screen: "screencast series"
       ruby: "Ruby on Rails"
@@ -83,100 +83,114 @@ en:
     new:
       sign: "Sign up"
       this: "This will be a signup page for new users."
-      Con: "Confirmation"
-      Create: "Create my account"
+      con: "Confirmation"
+      create: "Create my account"
     create:
-      Welcome: "Welcome to the Sample App!"
-      Please: "Please check your email to activate your account."
+      welcome: "Welcome to the Sample App!"
+      please: "Please check your email to activate your account."
     show:
-      Microposts: "Microposts"
+      microposts: "Microposts"
 
     index:
-      All: "All users"
+      all: "All users"
     user:
       delete: "delete"
       you: "You sure?"
     update:
-      Profile: "Profile updated"
+      profile: "Profile updated"
     destroy:
-      User: "User deleted"
+      user: "User deleted"
     logger_in_user:
-      Please log in.: "Please log in."
+      please log in.: "Please log in."
 
     edit:
-      Edit user: "Edit user"
-      Confirmation: "Confirmation"
-      Save changes: "Save changes"
+      edit user: "Edit user"
+      confirmation: "Confirmation"
+      save changes: "Save changes"
       change: "change"
-      Update your profile: "Update your profile"
-      Please: "Please log in."
+      update your profile: "Update your profile"
+      please: "Please log in."
+    followers:
+      followers: "Followers"
+    following:
+      following: "Following"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view my profile: "view my profile"
+      microposts: "Microposts"
   shared:
     error_messages:
       the: "The form contains"
       error: "error"
     micropost_form:
-      Compose: "Compose new micropost..."
+      compose: "Compose new micropost..."
       image: "image/jpeg,image/gif,image/png"
-      Post: "Post"
+      post: "Post"
     user_info:
       view my profile: "view my profile"
       micropost: "micropost"
+    stats:
+      following: "following"
+      followers: "followers"
 
   sessions:
     new:
       login: "Log in"
       new: "New user?"
       sign: "Sign up now!"
-      Remember: "Remember me on this computer"
+      remember: "Remember me on this computer"
       forgot: "(forgot password)"
     create:
       invalid: "Invalid email/password combination"
-      Check: "Check your email for the activation link"
-      Account: "Account not activated."
+      check: "Check your email for the activation link"
+      account: "Account not activated."
   account_activations:
     edit:
-      Account: "Account activated!"
-      Invalid: "Invalid activation link"
+      account: "Account activated!"
+      invalid: "Invalid activation link"
   user_mailer:
     account_activation:
-      Sample App: "Sample App"
-      Welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
-      Hi: "Hi"
-      Activate: "Account activation "
-    Account activation: "Account activation"
-    Hi: "Hi"
+      sample App: "Sample App"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      hi: "Hi"
+      activate: "Account activation "
+    account activation: "Account activation"
+    hi: "Hi"
     password_reset:
-      Password reset: "Password reset"
-      Reset password: "Reset password"
-      To: "To reset your password click the link below:"
-      This: "This link will expire in two hours."
-      If: "If you did not request your password to be reset, please ignore
+      hassword reset: "Password reset"
+      reset password: "Reset password"
+      to: "To reset your password click the link below:"
+      this: "This link will expire in two hours."
+      if: "If you did not request your password to be reset, please ignore
         this email and
         your password will stay as it is."
 
   password_resets:
     create:
-      Email: "Email sent with password reset instructions"
-      Email address not found: "Email address not found"
+      email: "Email sent with password reset instructions"
+      email address not found: "Email address not found"
     update:
-      Password: "Password has been reset."
+      password: "Password has been reset."
       can't be empty: "can't be empty"
     check_expiration:
-      Password reset has expired.: "Password reset has expired."
+      password reset has expired.: "Password reset has expired."
     edit:
-      Confirmation: "Confirmation"
-      Update password: "Update password"
-      Reset password: "Reset password"
+      confirmation: "Confirmation"
+      update password: "Update password"
+      reset password: "Reset password"
     new:
-      Forgot password: "Forgot password"
-      Submit: "Submit"
+      forgot password: "Forgot password"
+      submit: "Submit"
   microposts:
     create:
-      Micropost: "Micropost created!"
+      micropost: "Micropost created!"
     destroy:
-      Micropost deleted: "Micropost deleted"
+      micropost deleted: "Micropost deleted"
     micropost:
-      You sure?: "You sure?"
+      you sure?: "You sure?"
       delete: "delete"
-      Posted: "Posted"
+      posted: "Posted"
       ago: "ago."
